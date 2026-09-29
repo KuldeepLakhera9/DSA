@@ -14,7 +14,8 @@ DSA/
 │   ├── Largest.java         # Find largest number in array (Time: O(N), Space: O(1))
 │   ├── LinearSearch.java    # Linear Search implementation (Time: O(N), Space: O(1))
 │   ├── Pairs.java           # Print all pairs in array (Time: O(N^2), Space: O(1))
-│   └── Reverse.java         # Reverse an array in-place (Time: O(N), Space: O(1))
+│   ├── Reverse.java         # Reverse an array in-place (Time: O(N), Space: O(1))
+│   └── SubArray.java        # Print all subarrays of array (Time: O(N^3), Space: O(1))
 ├── .gitignore               # Excludes compiled .class and build files
 └── README.md                # Progress tracker and repository overview
 ```
@@ -40,7 +41,9 @@ DSA/
 - [x] **Pairs in an Array** ([`Pairs.java`](./Arrays/Pairs.java)) - Generate all pairs with nested loops (total pairs: $n(n-1)/2$).
   - **Time Complexity:** $O(N^2)$
   - **Space Complexity:** $O(1)$
-- [ ] Print Subarrays
+- [x] **Print Subarrays** ([`SubArray.java`](./Arrays/SubArray.java)) - 3-loop traversal to generate all continuous subarrays (total subarrays: $n(n+1)/2$).
+  - **Time Complexity:** $O(N^3)$
+  - **Space Complexity:** $O(1)$
 - [ ] Max Subarray Sum (Brute Force, Prefix Sum, Kadane's Algorithm)
 - [ ] Trapping Rainwater
 - [ ] Buy & Sell Stocks
