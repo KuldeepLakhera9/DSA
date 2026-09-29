@@ -12,7 +12,8 @@ DSA/
 │   ├── ArraysCC.java        # Array creation, input/output, length, and basic operations
 │   ├── BinarySearch.java    # Binary Search implementation (Time: O(log N), Space: O(1))
 │   ├── Largest.java         # Find largest number in array (Time: O(N), Space: O(1))
-│   └── LinearSearch.java    # Linear Search implementation (Time: O(N), Space: O(1))
+│   ├── LinearSearch.java    # Linear Search implementation (Time: O(N), Space: O(1))
+│   └── Reverse.java         # Reverse an array in-place (Time: O(N), Space: O(1))
 ├── .gitignore               # Excludes compiled .class and build files
 └── README.md                # Progress tracker and repository overview
 ```
@@ -32,7 +33,9 @@ DSA/
 - [x] **Binary Search** ([`BinarySearch.java`](./Arrays/BinarySearch.java)) - Divide-and-conquer search on sorted array.
   - **Time Complexity:** $O(\log N)$
   - **Space Complexity:** $O(1)$
-- [ ] Reverse an Array
+- [x] **Reverse an Array** ([`Reverse.java`](./Arrays/Reverse.java)) - In-place two-pointer reversal.
+  - **Time Complexity:** $O(N)$
+  - **Space Complexity:** $O(1)$
 - [ ] Pairs in an Array
 - [ ] Print Subarrays
 - [ ] Max Subarray Sum (Brute Force, Prefix Sum, Kadane's Algorithm)
