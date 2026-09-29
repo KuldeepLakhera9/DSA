@@ -25,5 +25,7 @@ public class ArraysCC {
 
         System.out.println("Percentage is: " + percentage);
 
+        System.out.println(marks.length);
+
     }
 }
