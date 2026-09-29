@@ -10,6 +10,7 @@ A structured repository documenting my journey of learning Data Structures and A
 DSA/
 ├── Arrays/
 │   ├── ArraysCC.java        # Array creation, input/output, length, and basic operations
+│   ├── BinarySearch.java    # Binary Search implementation (Time: O(log N), Space: O(1))
 │   ├── Largest.java         # Find largest number in array (Time: O(N), Space: O(1))
 │   └── LinearSearch.java    # Linear Search implementation (Time: O(N), Space: O(1))
 ├── .gitignore               # Excludes compiled .class and build files
@@ -28,7 +29,9 @@ DSA/
 - [x] **Find Largest Number** ([`Largest.java`](./Arrays/Largest.java)) - Finding the maximum element in an array using `Integer.MIN_VALUE`.
   - **Time Complexity:** $O(N)$
   - **Space Complexity:** $O(1)$
-- [ ] Binary Search
+- [x] **Binary Search** ([`BinarySearch.java`](./Arrays/BinarySearch.java)) - Divide-and-conquer search on sorted array.
+  - **Time Complexity:** $O(\log N)$
+  - **Space Complexity:** $O(1)$
 - [ ] Reverse an Array
 - [ ] Pairs in an Array
 - [ ] Print Subarrays
