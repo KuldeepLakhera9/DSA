@@ -3,6 +3,8 @@ package Arrays;
 public class SubArray {
     public static void printSubArray(int numbers[]) {
 
+        int total = 0;
+
         for (int i = 0; i < numbers.length; i++) {
             int start = i;
 
@@ -11,10 +13,13 @@ public class SubArray {
                 for (int k = start; k <= end; k++) {
                     System.out.print(numbers[k] + "");
                 }
+                total++;
                 System.out.println();
             }
             System.out.println();
         }
+
+        System.out.println("Total Subarrays:" + total);
 
     }
 
